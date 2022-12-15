@@ -16,5 +16,11 @@ Når nok ændringer er lavet:
 git commit -m " "
 
 
-Lav en ny branch: 
+Lav en ny branch(ændringer sker ikke længere på masterbranch): 
 git checkout -b <name>
+
+Skift imellem branches(for at komme til Masterbranch bruges master): 
+git checkout <Name>
+
+Få alle ændringer fra en branch over på en anden(dette inkluderer også nye filer" 
+git merge <Branch name> 
