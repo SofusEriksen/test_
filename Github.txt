@@ -7,6 +7,7 @@ git init
 Staging område:
 Tilføj filer før commit:
 git add <file>
+git add . (tilføjer alle filer i repo)
 
 Tjek status før commit(tjekker også for ændringer):
 git status
@@ -14,4 +15,6 @@ git status
 Når nok ændringer er lavet:
 git commit -m " "
 
-git commit
+
+Lav en ny branch: 
+git checkout -b <name>
