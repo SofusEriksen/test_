@@ -1,1 +1,17 @@
-Github
+Github:
+
+Helt nyt repo: 
+git init 
+
+
+Staging område:
+Tilføj filer før commit:
+git add <file>
+
+Tjek status før commit(tjekker også for ændringer):
+git status
+
+Når nok ændringer er lavet:
+git commit -m " "
+
+git commit
