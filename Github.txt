@@ -1,6 +1,6 @@
 Github:
 
-Helt nyt repo: 
+Helt nyt lokalt repo: 
 git init 
 
 
@@ -24,3 +24,17 @@ git checkout <Name>
 
 Få alle ændringer fra en branch over på en anden(dette inkluderer også nye filer" 
 git merge <Branch name> 
+
+
+Remote repo: 
+Hent alle filer fra remote: 
+git pull <where> <branch>
+
+Opdater repo efter lokale ændringer:
+git add . 
+git commit -m " " 
+git push 
+
+Ved conflict gøres overstående: 
+
+
